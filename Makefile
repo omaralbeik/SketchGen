@@ -6,8 +6,6 @@ PREFIX = /usr/local
 INSTALL_PATH = $(PREFIX)/bin/$(EXECUTABLE_NAME)
 BUILD_PATH = .build/release/$(EXECUTABLE_NAME)
 
-.PHONY: install build uninstall
-
 install: build
 	mkdir -p $(PREFIX)/bin
 	cp -f $(BUILD_PATH) $(INSTALL_PATH)
@@ -17,3 +15,8 @@ build:
 
 uninstall:
 	rm -f $(INSTALL_PATH)
+
+clean:
+	rm -rf .build
+
+.PHONY: install build uninstall clean

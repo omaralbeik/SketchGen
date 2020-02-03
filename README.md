@@ -16,6 +16,7 @@ SketchGen is a command line tool written in Swift that generates source code fro
 ### Homebrew (recommended)
 
 ```sh
+brew tap omaralbeik/formulae
 brew install sketchgen
 ```
 
