@@ -4,12 +4,7 @@ SketchGen is a command line tool written in Swift that generates source code fro
 
 ## Features
 
-- ✅ Extract assets from a Sketch file including:
-  - colors (RGBA and HEX)
-  - shadows
-  - fonts
-  - borders
-  - corner radius values
+- ✅ Extract assets from a Sketch file including: colors (RGBA and HEX), shadows, fonts, borders, and radius values
 - ✅ Multi-page Sketch file parsing
 - ✅ Extract assets into a simple JSON file for easier interaction with other 3rd party tools
 - ✅ Generate Readable, `snake_cased`, and `camelCased`, `UPPERCASED`, `lowercased`, and `Capitalized` names
