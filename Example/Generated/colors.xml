@@ -1,0 +1,76 @@
+<!-- Generated using SketchGen -->
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    
+    <color name="info_lightest">#DBEAF7FF</color>
+    
+    <color name="warning_darker">#B0861FFF</color>
+    
+    <color name="info_darkest">#0A4170FF</color>
+    
+    <color name="danger_lighter">#E06C6CFF</color>
+    
+    <color name="warning_lighter">#FCD26BFF</color>
+    
+    <color name="info">#1376CCFF</color>
+    
+    <color name="info_lighter">#599EDBFF</color>
+    
+    <color name="danger">#D32F2FFF</color>
+    
+    <color name="secondary_darkest">#0D1022FF</color>
+    
+    <color name="accent_darker">#A85308FF</color>
+    
+    <color name="warning">#FBC02DFF</color>
+    
+    <color name="primary_darkest">#00416EFF</color>
+    
+    <color name="success">#2E7C31FF</color>
+    
+    <color name="secondary_lighter">#5C6179FF</color>
+    
+    <color name="accent_darkest">#844106FF</color>
+    
+    <color name="secondary_lightest">#DCDDE2FF</color>
+    
+    <color name="primary_lightest">#D9EBF6D8</color>
+    
+    <color name="accent_lightest">#FDEAD9FF</color>
+    
+    <color name="danger_lightest">#F8DFDFFF</color>
+    
+    <color name="info_darker">#0D528EFF</color>
+    
+    <color name="accent">#F2770CFF</color>
+    
+    <color name="danger_darkest">#731818FF</color>
+    
+    <color name="accent_lighter">#F5A053FF</color>
+    
+    <color name="success_darkest">#18441BFF</color>
+    
+    <color name="secondary_darker">#0F142CFF</color>
+    
+    <color name="primary_lighter">#4DA1D9FF</color>
+    
+    <color name="success_lighter">#6CA36EFF</color>
+    
+    <color name="primary_darker">#00538CFF</color>
+    
+    <color name="success_darker">#205722FF</color>
+    
+    <color name="primary">#0079C9FF</color>
+    
+    <color name="warning_lightest">#FEF5DFFF</color>
+    
+    <color name="warning_darkest">#896918FF</color>
+    
+    <color name="success_lightest">#DFEBE0FF</color>
+    
+    <color name="secondary">#181D41FF</color>
+    
+    <color name="danger_darker">#932020FF</color>
+    
+</resources>
