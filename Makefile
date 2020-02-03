@@ -1,22 +1,38 @@
-EXECUTABLE_NAME = sketchgen
-REPO = https://github.com/omaralbeik/SketchGen
-VERSION = 0.1.0
+SHELL = /bin/bash
 
-PREFIX = /usr/local
-INSTALL_PATH = $(PREFIX)/bin/$(EXECUTABLE_NAME)
-BUILD_PATH = .build/release/$(EXECUTABLE_NAME)
+prefix ?= /usr/local
+bindir ?= $(prefix)/bin
+libdir ?= $(prefix)/lib
+srcdir = Sources
 
-install: build
-	mkdir -p $(PREFIX)/bin
-	cp -f $(BUILD_PATH) $(INSTALL_PATH)
+REPODIR = $(shell pwd)
+BUILDDIR = $(REPODIR)/.build
+SOURCES = $(wildcard $(srcdir)/**/*.swift)
 
-build:
-	swift build --disable-sandbox -c release
+.DEFAULT_GOAL = all
 
+.PHONY: all
+all: sketchgen
+
+sketchgen: $(SOURCES)
+	@swift build \
+		-c release \
+		--disable-sandbox \
+		--build-path "$(BUILDDIR)"
+
+.PHONY: install
+install: sketchgen
+	@install -d "$(bindir)" "$(libdir)"
+	@install "$(BUILDDIR)/release/sketchgen" "$(bindir)"
+
+.PHONY: uninstall
 uninstall:
-	rm -f $(INSTALL_PATH)
+	@rm -rf "$(bindir)/sketchgen"
 
-clean:
-	rm -rf .build
+.PHONY: clean
+distclean:
+	@rm -f $(BUILDDIR)/release
 
-.PHONY: install build uninstall clean
+.PHONY: clean
+clean: distclean
+	@rm -rf $(BUILDDIR)
