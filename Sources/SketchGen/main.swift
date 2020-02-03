@@ -24,7 +24,7 @@
 import SwiftCLI
 
 let cli = CLI(
-    name: "SketchGen",
+    name: "sketchgen",
     version: "0.1.0",
     description: "A tool to generate source code from sketch files"
 )

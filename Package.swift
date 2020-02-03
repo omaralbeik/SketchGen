@@ -1,10 +1,14 @@
 // swift-tools-version:5.1
-// The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
     name: "SketchGen",
+    platforms: [.macOS(.v10_13)],
+    products: [
+        .executable(name: "sketchgen", targets: ["SketchGen"]),
+        .library(name: "SketchGen", targets: ["SketchGen"]),
+    ],
     dependencies: [
         .package(
             url: "https://github.com/jakeheis/SwiftCLI",
