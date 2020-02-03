@@ -1,0 +1,4 @@
+/* Generated using SketchGen */
+{% for color in colors %}
+.{{ color.name|snakecased }} { color: {{ color.value.hex }} } /* {{ color.name|readable|capitalize }} */
+{% endfor %}

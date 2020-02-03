@@ -1,0 +1,8 @@
+<!-- Generated using SketchGen -->
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    {% for color in colors %}
+    <color name="{{ color.name|snakecased }}">{{ color.value.hex }}</color>
+    {% endfor %}
+</resources>
