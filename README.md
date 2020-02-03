@@ -11,6 +11,10 @@ SketchGen is a command line tool written in Swift that generates source code fro
 - ✅ Use a templating system to generate source code for any programming language using your preferred style
 - ✅ Generate from anywhere including Linux and on CI
 
+## tl;dr
+
+SketchGen + [Example/styles.sketch](https://github.com/omaralbeik/SketchGen/blob/master/Example/styles.sketch) + [Example/templates](https://github.com/omaralbeik/SketchGen/tree/master/Example/templates) = [Example/Generated](https://github.com/omaralbeik/SketchGen/tree/master/Example/Generated)
+
 ## Installation
 
 ### Homebrew (recommended)
