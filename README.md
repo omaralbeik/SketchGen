@@ -24,6 +24,12 @@ brew tap omaralbeik/formulae
 brew install sketchgen
 ```
 
+### [Mint](https://github.com/yonaskolb/Mint)
+
+```sh
+mint install omaralbeik/SketchGen
+```
+
 ### Make
 
 ```sh
