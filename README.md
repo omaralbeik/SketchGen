@@ -1,6 +1,8 @@
-# SketchGen
+<p align="center">
+  <img src="https://raw.githubusercontent.com/omaralbeik/SketchGen/master/Assets/logo.svg?sanitize=true" title="SketchGen">
+</p>
 
-SketchGen is a command line tool written in Swift that generates source code from sketch files.
+<p align="center">SketchGen is a command line tool written in Swift that generates source code from sketch files.</p>
 
 ## Features
 
