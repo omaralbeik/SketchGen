@@ -6,7 +6,12 @@
 
 ## Features
 
-- ✅ Extract assets from a Sketch file including: colors (RGBA and HEX), shadows, fonts, borders, and radius values
+- ✅ Extract assets from a Sketch file including:
+  - ➡️ colors (RGBA and HEX)
+  - ➡️ shadows
+  - ➡️ fonts
+  - ➡️ borders
+  - ➡️ radius values
 - ✅ Multi-page Sketch file parsing
 - ✅ Extract assets into a simple JSON file for easier interaction with other 3rd party tools
 - ✅ Generate Readable, `snake_cased`, and `camelCased`, `UPPERCASED`, `lowercased`, and `Capitalized` names
@@ -16,6 +21,19 @@
 ## tl;dr
 
 SketchGen + [Example/styles.sketch](https://github.com/omaralbeik/SketchGen/blob/master/Example/styles.sketch) + [Example/templates](https://github.com/omaralbeik/SketchGen/tree/master/Example/templates) = [Example/Generated](https://github.com/omaralbeik/SketchGen/tree/master/Example/Generated)
+
+> After [installation](#installation)
+
+```sh
+git clone git@github.com:omaralbeik/SketchGen.git
+cd SketchGen
+
+sketchgen generate -s Example/styles.sketch ~/Desktop/Output Example/templates -v
+
+open ~/Desktop/Output
+```
+
+> Check generated source code in `Desktop/Output`
 
 ## Installation
 
@@ -112,13 +130,13 @@ SketchGen expect the followingin your Sketch file:
 - Each artboard should have **exactly 1** rectangle or text layer
 - layer names **can have only english letters, numbers and _** and follow the following conventions:
 
-| Layer Type   | Prefix            | Valid Name Examples                          | Invalid Name Examples                                 |
-|:-------------|:------------------|:---------------------------------------------|:------------------------------------------------------|
-| **`Color`**  | **`gen_color_`**  | `gen_color_primary`, `gen_color_dark_blue`   | `primary`, `gen_color primary`, `gen_color_dark blue` |
-| **`Shadow`** | **`gen_shadow_`** | `gen_shadow_small`, `gen_shadow_extra_large` | `small`, `gen_shadow small`, `gen_shadow_extra large` |
-| **`Font`**   | **`gen_font_`**   | `gen_font_body`, `gen_font_heading_1`        | `body`, `gen_font body`, `gen_font_heading 1`         |
-| **`Border`** | **`gen_border_`** | `gen_border_small`, `gen_border_extra_large` | `small`, `gen_border small`, `gen_border_extra large` |
-| **`Radius`** | **`gen_radius_`** | `gen_radius_small`, `gen_radius_extra_large` | `small`, `gen_radius small`, `gen_radius_extra large` |
+| Layer Type   | Prefix            | Examples of Valid Names                      |
+|:-------------|:------------------|:---------------------------------------------|
+| **`Color`**  | **`gen_color_`**  | `gen_color_primary`, `gen_color_dark_blue`   |
+| **`Shadow`** | **`gen_shadow_`** | `gen_shadow_small`, `gen_shadow_extra_large` |
+| **`Font`**   | **`gen_font_`**   | `gen_font_body`, `gen_font_heading_1`        |
+| **`Border`** | **`gen_border_`** | `gen_border_small`, `gen_border_extra_large` |
+| **`Radius`** | **`gen_radius_`** | `gen_radius_small`, `gen_radius_extra_large` |
 
 > See [Example/styles.sketch](https://github.com/omaralbeik/SketchGen/blob/master/Example/styles.sketch) for an example.
 
@@ -138,18 +156,12 @@ On top of Stencil's [built-in filters](http://stencil.fuller.li/en/latest/builti
 - [Stencil](https://github.com/stencilproject/Stencil)
 - [PathKit](https://github.com/kylef/PathKit)
 - [Sketch File Format](https://github.com/sketch-hq/sketch-file-format)
+- Icons in the logo are made by [freepik](https://www.flaticon.com/authors/freepik) from [flaticon.com](https://www.flaticon.com).
 
 ### Thanks
 
 - [Mattt](https://twitter.com/mattt) for his great post [Swift Program Distribution with Homebrew](https://nshipster.com/homebrew/)
 - [Yonas Kolb](https://github.com/yonaskolb) for his very organized README and scripts in [XcodeGen](https://github.com/yonaskolb/XcodeGen) that I ended up copying most of it 😅
-
-## Contact
-
-Omar Albeik
-
-- [omaralbeik.com](https://omaralbeik.com)
-- [twitter.com/omaralbeik](https://twitter.com/omaralbeik)
 
 ## License
 
