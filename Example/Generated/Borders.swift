@@ -14,13 +14,18 @@ public extension CALayer {
     }
 }
 
-public struct Borders {
-    private init() {}
+public enum Borders {
     
-    /// Zero
-    public static let zero = Border(
+    /// Xs
+    public static let xs = Border(
         color: UIColor(red: 0, green: 0, blue: 0, alpha: 1),
-        thickness: 0
+        thickness: 1
+    )
+    
+    /// Large
+    public static let large = Border(
+        color: UIColor(red: 0, green: 0, blue: 0, alpha: 1),
+        thickness: 8
     )
     
     /// Small
@@ -35,16 +40,10 @@ public struct Borders {
         thickness: 4
     )
     
-    /// Xs
-    public static let xs = Border(
+    /// Zero
+    public static let zero = Border(
         color: UIColor(red: 0, green: 0, blue: 0, alpha: 1),
-        thickness: 1
-    )
-    
-    /// Large
-    public static let large = Border(
-        color: UIColor(red: 0, green: 0, blue: 0, alpha: 1),
-        thickness: 8
+        thickness: 0
     )
     
 }

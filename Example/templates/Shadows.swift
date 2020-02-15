@@ -15,11 +15,13 @@ public extension CALayer {
         shadowOffset = shadow.offset
         shadowRadius = shadow.radius
         shadowOpacity = shadow.opacity
+        masksToBounds = false
+        shouldRasterize = true
+        rasterizationScale = UIScreen.main.scale
     }
 }
 
-public struct Shadows {
-    private init() {}
+public enum Shadows {
     {% for shadow in shadows %}
     /// {{ shadow.name|readable|capitalize }}
     public let {{ shadow.name|camelcased }} = Shadow(

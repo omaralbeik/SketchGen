@@ -20,7 +20,7 @@
 
 ## tl;dr
 
-SketchGen + [Example/styles.sketch](https://github.com/omaralbeik/SketchGen/blob/master/Example/styles.sketch) + [Example/templates](https://github.com/omaralbeik/SketchGen/tree/master/Example/templates) = [Example/Generated](https://github.com/omaralbeik/SketchGen/tree/master/Example/Generated)
+SketchGen + [Example/styles.sketch](https://github.com/omaralbeik/SketchGen/blob/master/Example/styles.sketch) + [Example/templates](https://github.com/omaralbeik/SketchGen/tree/master/Example/templates) = [Example/generated](https://github.com/omaralbeik/SketchGen/tree/master/Example/generated)
 
 > After [installation](#installation)
 
@@ -99,8 +99,8 @@ sketchkit generate -s <.sketch file path> <destination path> <templates folder p
 
 # Example:
 ## Parse a file named styles.sketch in Desktop and create source code
-## in Desktop/Generated, using templates in /Desktop/templates folder:
-sketchkit generate -s ~/Desktop/styles.sketch ~/Desktop/Generated ~/Desktop/templates
+## in Desktop/generated, using templates in /Desktop/templates folder:
+sketchkit generate -s ~/Desktop/styles.sketch ~/Desktop/generated ~/Desktop/templates
 ```
 
 #### From pre-generated context.json file
@@ -110,8 +110,8 @@ sketchkit generate -c <context.json file path> <destination path> <templates fol
 
 # Example:
 ## Parse a context file named context.json in Desktop and create source code
-## in Desktop/Generated, using templates in /Desktop/templates folder:
-sketchkit generate -c ~/Desktop/context.json ~/Desktop/Generated ~/Desktop/templates
+## in Desktop/generated, using templates in /Desktop/templates folder:
+sketchkit generate -c ~/Desktop/context.json ~/Desktop/generated ~/Desktop/templates
 ```
 
 ### Flags

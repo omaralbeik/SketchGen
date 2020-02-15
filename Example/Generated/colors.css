@@ -1,71 +1,71 @@
 /* Generated using SketchGen */
 
-.info_lightest { color: #DBEAF7FF } /* Info Lightest */
-
-.warning_darker { color: #B0861FFF } /* Warning Darker */
-
-.info_darkest { color: #0A4170FF } /* Info Darkest */
-
-.danger_lighter { color: #E06C6CFF } /* Danger Lighter */
+.primary { color: #0079C9FF } /* Primary */
 
 .warning_lighter { color: #FCD26BFF } /* Warning Lighter */
 
-.info { color: #1376CCFF } /* Info */
-
-.info_lighter { color: #599EDBFF } /* Info Lighter */
-
-.danger { color: #D32F2FFF } /* Danger */
-
-.secondary_darkest { color: #0D1022FF } /* Secondary Darkest */
-
-.accent_darker { color: #A85308FF } /* Accent Darker */
-
-.warning { color: #FBC02DFF } /* Warning */
-
-.primary_darkest { color: #00416EFF } /* Primary Darkest */
+.success_lighter { color: #6CA36EFF } /* Success Lighter */
 
 .success { color: #2E7C31FF } /* Success */
 
-.secondary_lighter { color: #5C6179FF } /* Secondary Lighter */
+.secondary_darkest { color: #0D1022FF } /* Secondary Darkest */
 
-.accent_darkest { color: #844106FF } /* Accent Darkest */
-
-.secondary_lightest { color: #DCDDE2FF } /* Secondary Lightest */
-
-.primary_lightest { color: #D9EBF6D8 } /* Primary Lightest */
-
-.accent_lightest { color: #FDEAD9FF } /* Accent Lightest */
-
-.danger_lightest { color: #F8DFDFFF } /* Danger Lightest */
-
-.info_darker { color: #0D528EFF } /* Info Darker */
-
-.accent { color: #F2770CFF } /* Accent */
-
-.danger_darkest { color: #731818FF } /* Danger Darkest */
-
-.accent_lighter { color: #F5A053FF } /* Accent Lighter */
-
-.success_darkest { color: #18441BFF } /* Success Darkest */
-
-.secondary_darker { color: #0F142CFF } /* Secondary Darker */
-
-.primary_lighter { color: #4DA1D9FF } /* Primary Lighter */
-
-.success_lighter { color: #6CA36EFF } /* Success Lighter */
-
-.primary_darker { color: #00538CFF } /* Primary Darker */
-
-.success_darker { color: #205722FF } /* Success Darker */
-
-.primary { color: #0079C9FF } /* Primary */
-
-.warning_lightest { color: #FEF5DFFF } /* Warning Lightest */
-
-.warning_darkest { color: #896918FF } /* Warning Darkest */
-
-.success_lightest { color: #DFEBE0FF } /* Success Lightest */
+.info_darkest { color: #0A4170FF } /* Info Darkest */
 
 .secondary { color: #181D41FF } /* Secondary */
 
+.secondary_darker { color: #10142CFF } /* Secondary Darker */
+
+.success_lightest { color: #DFEBE0FF } /* Success Lightest */
+
+.primary_lighter { color: #4DA1D9FF } /* Primary Lighter */
+
+.success_darkest { color: #18441BFF } /* Success Darkest */
+
 .danger_darker { color: #932020FF } /* Danger Darker */
+
+.info_darker { color: #0D528EFF } /* Info Darker */
+
+.accent_darker { color: #A85308FF } /* Accent Darker */
+
+.warning_darker { color: #B0861FFF } /* Warning Darker */
+
+.primary_darkest { color: #00416EFF } /* Primary Darkest */
+
+.danger_darkest { color: #731818FF } /* Danger Darkest */
+
+.primary_lightest { color: #D9EBF6D8 } /* Primary Lightest */
+
+.info_lightest { color: #DBEAF7FF } /* Info Lightest */
+
+.secondary_lightest { color: #DCDDE2FF } /* Secondary Lightest */
+
+.danger_lightest { color: #F8DFDFFF } /* Danger Lightest */
+
+.danger_lighter { color: #E06C6CFF } /* Danger Lighter */
+
+.info_lighter { color: #599EDBFF } /* Info Lighter */
+
+.accent_lighter { color: #F5A053FF } /* Accent Lighter */
+
+.accent_darkest { color: #844106FF } /* Accent Darkest */
+
+.accent_lightest { color: #FDEAD9FF } /* Accent Lightest */
+
+.danger { color: #D32F2FFF } /* Danger */
+
+.primary_darker { color: #00538CFF } /* Primary Darker */
+
+.warning { color: #FBC02DFF } /* Warning */
+
+.warning_darkest { color: #896918FF } /* Warning Darkest */
+
+.success_darker { color: #205722FF } /* Success Darker */
+
+.accent { color: #F2770BFF } /* Accent */
+
+.secondary_lighter { color: #5C6179FF } /* Secondary Lighter */
+
+.warning_lightest { color: #FEF5DFFF } /* Warning Lightest */
+
+.info { color: #1476CCFF } /* Info */

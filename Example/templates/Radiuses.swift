@@ -2,8 +2,7 @@
 
 import UIKit
 
-public struct Radiuses {
-    private init() {}
+public enum Radiuses {
     {% for radius in radiuses %}
     /// {{ radius.name|readable|capitalize }} ({{ radius.value }})
     public static let {{ radius.name|camelcased }}: CGFloat = {{ radius.value }}

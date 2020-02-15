@@ -14,8 +14,7 @@ public extension CALayer {
     }
 }
 
-public struct Borders {
-    private init() {}
+public enum Borders {
     {% for border in borders %}
     /// {{ border.name|readable|capitalize }}
     public static let {{ border.name|camelcased }} = Border(

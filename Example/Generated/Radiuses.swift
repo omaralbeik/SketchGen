@@ -2,11 +2,7 @@
 
 import UIKit
 
-public struct Radiuses {
-    private init() {}
-    
-    /// Zero (0)
-    public static let zero: CGFloat = 0
+public enum Radiuses {
     
     /// Large (32)
     public static let large: CGFloat = 32
@@ -19,5 +15,8 @@ public struct Radiuses {
     
     /// Small (8)
     public static let small: CGFloat = 8
+    
+    /// Zero (0)
+    public static let zero: CGFloat = 0
     
 }

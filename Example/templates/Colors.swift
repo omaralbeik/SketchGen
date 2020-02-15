@@ -2,8 +2,7 @@
 
 import UIKit
 
-public struct Colors {
-    private init() {}
+public enum Colors {
     {% for color in colors %}
     /// {{ color.name|readable|capitalize }} ({{ color.value.hex }})
     public static let {{ color.name|camelcased }} = UIColor(

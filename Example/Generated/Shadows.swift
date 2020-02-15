@@ -15,17 +15,19 @@ public extension CALayer {
         shadowOffset = shadow.offset
         shadowRadius = shadow.radius
         shadowOpacity = shadow.opacity
+        masksToBounds = false
+        shouldRasterize = true
+        rasterizationScale = UIScreen.main.scale
     }
 }
 
-public struct Shadows {
-    private init() {}
+public enum Shadows {
     
-    /// Level 0
-    public let level0 = Shadow(
-        color: UIColor(red: 1, green: 1, blue: 1, alpha: 0),
-        offset: CGSize(width: 0, height: 0),
-        radius: 0,
+    /// Level 4
+    public let level4 = Shadow(
+        color: UIColor(red: 0, green: 0, blue: 0, alpha: 0.24),
+        offset: CGSize(width: 0, height: 48),
+        radius: 56,
         opacity: 1
     )
     
@@ -34,6 +36,14 @@ public struct Shadows {
         color: UIColor(red: 0, green: 0, blue: 0, alpha: 0.1),
         offset: CGSize(width: 0, height: 8),
         radius: 16,
+        opacity: 1
+    )
+    
+    /// Level 0
+    public let level0 = Shadow(
+        color: UIColor(red: 1, green: 1, blue: 1, alpha: 0),
+        offset: CGSize(width: 0, height: 0),
+        radius: 0,
         opacity: 1
     )
     
@@ -50,14 +60,6 @@ public struct Shadows {
         color: UIColor(red: 0, green: 0, blue: 0, alpha: 0.1),
         offset: CGSize(width: 0, height: 15),
         radius: 20,
-        opacity: 1
-    )
-    
-    /// Level 4
-    public let level4 = Shadow(
-        color: UIColor(red: 0, green: 0, blue: 0, alpha: 0.24),
-        offset: CGSize(width: 0, height: 48),
-        radius: 56,
         opacity: 1
     )
     
